@@ -37,3 +37,25 @@ elif crustpizza == "Cheesy Bites":
     harga_crustpizza = 50000
 else:
     print("PESANAN ANDA TIDAK VALID")
+
+print("=====================================\n")
+
+print("Personal")
+print("Medium")
+print("Jumbo")
+
+UkuranPizza = input("Silahkan pilih ukuran pizza :")
+Harga_Ukuranpizza = 0
+if UkuranPizza == "Personal":
+    Harga_Ukuranpizza = 5000
+    print("Anda memesan ukuran Personal", Harga_Ukuranpizza)
+elif UkuranPizza == "Medium":
+    Harga_Ukuranpizza = 10000
+    print("Anda memesan ukuran Medium", Harga_Ukuranpizza)
+elif UkuranPizza == "Jumbo":
+    Harga_Ukuranpizza = 15000
+    print("Anda memesan ukuran Jumbo", Harga_Ukuranpizza)
+else:
+    print("PESANAN ANDA TIDAK VALID")
+
+print("Terimakaasih anda telah memesan pizza dengan ukuran", UkuranPizza, "dengan harga", Harga_Ukuranpizza)
